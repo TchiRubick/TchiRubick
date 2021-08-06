@@ -4,10 +4,10 @@
 I'm a self-taught and actually an independent remote developer.
 
 ## Langages and technologies i use
-![](https://img.shields.io/badge/-php-informational?style=flat&logo=php&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/-laravel-white?style=flat&logo=laravel&logoColor=white&color=e02b0b)
-![](https://img.shields.io/badge/-codeigniter-white?style=flat&logo=codeigniter&logoColor=white&color=f5c75d)
-![](https://img.shields.io/badge/-javascript-white?style=flat&logo=javascript&logoColor=black&color=f5e61d)
+![](https://img.shields.io/badge/-php-informational?style=flat&logo=php&logoColor=white&color=787CB5)
+![](https://img.shields.io/badge/-laravel-white?style=flat&logo=laravel&logoColor=white&color=fb503b)
+![](https://img.shields.io/badge/-codeigniter-white?style=flat&logo=codeigniter&logoColor=white&color=DD4814)
+![](https://img.shields.io/badge/-javascript-white?style=flat&logo=javascript&logoColor=black&color=F0DB4F)
 ![](https://img.shields.io/badge/-react-white?style=flat&logo=react&logoColor=white&color=28a89c)
 ![](https://img.shields.io/badge/-vue-white?style=flat&logo=vue.js&logoColor=white&color=28a89c)
 ![](https://img.shields.io/badge/-node-white?style=flat&logo=node.js&logoColor=white&color=0be016)
