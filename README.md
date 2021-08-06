@@ -14,5 +14,5 @@ I'm a self-taught remote developer.
 
 
 ## Contact
-![tchi.devica@gmail.com](https://img.shields.io/badge/-gmail-white?style=flat&logo=gmail&logoColor=white&color=e02b0b&link=mailto:tchi.devica@gmail.com)(mailto:tchi.devica@gmail.com)
-![Tchirubick](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tchirubick/)(https://www.linkedin.com/in/tchirubick/)
+[![tchi.devica@gmail.com](https://img.shields.io/badge/-gmail-white?style=flat&logo=gmail&logoColor=white&color=e02b0b&link=mailto:tchi.devica@gmail.com)](mailto:tchi.devica@gmail.com)
+[![Tchirubick](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tchirubick/)](https://www.linkedin.com/in/tchirubick/)
