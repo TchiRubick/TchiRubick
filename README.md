@@ -11,3 +11,5 @@
 ![](https://img.shields.io/badge/-docker-white?style=flat&logo=docker&logoColor=black&color=287cb8)
 ![](https://img.shields.io/badge/-react-white?style=flat&logo=react&logoColor=black&color=28a89c)
 ![](https://img.shields.io/badge/-vue-white?style=flat&logo=vue.js&logoColor=white&color=28a89c)
+![](https://img.shields.io/badge/-node-white?style=flat&logo=node.js&logoColor=white&color=0be016)
+![](https://img.shields.io/badge/-aws-white?style=flat&logo=amazon-aws&logoColor=white&color=e0a00b)
