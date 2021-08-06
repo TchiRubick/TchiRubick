@@ -1,8 +1,6 @@
-- 👋 Hi, I’m Ritchi <@TchiRubick> Andria
-- 👀 I’m interested in web development
-- 🌱 I’m currently learning to lead a team be a very good developer.
-- 💞️ I’m looking to collaborate on any project.
-- 📫 How to reach me ? <tchi.devica@gmail.com>
+👋 Hi, I’m Ritchi <@TchiRubick> Andriantsifeherana
+
+I'm a self-taught remote developer.
 
 ## Langages and technologies i use
 ![](https://img.shields.io/badge/-php-informational?style=flat&logo=php&logoColor=white&color=6aa6f8)
@@ -13,3 +11,7 @@
 ![](https://img.shields.io/badge/-vue-white?style=flat&logo=vue.js&logoColor=white&color=28a89c)
 ![](https://img.shields.io/badge/-node-white?style=flat&logo=node.js&logoColor=white&color=0be016)
 ![](https://img.shields.io/badge/-aws-white?style=flat&logo=amazon-aws&logoColor=white&color=e0a00b)
+
+
+## Contact
+![](https://img.shields.io/badge/-gmail-white?style=flat&logo=gmail&logoColor=white&color=e02b0b&link=mailto:tchi.devica@gmail.com)
