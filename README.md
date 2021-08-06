@@ -22,3 +22,4 @@ I'm a self-taught and actually an independent remote developer.
 [![](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tchirubick/)](https://www.linkedin.com/in/tchirubick/)
 [![](https://img.shields.io/badge/-instagram-white?style=flat&logo=instagram&logoColor=white&color=e675da&link=https://www.instagram.com/tchirubick/)](https://www.instagram.com/tchirubick/)
 [![](https://img.shields.io/badge/-stackoverflow-white?style=flat&logo=stack-overflow&logoColor=white&color=ffe11f&link=https://stackoverflow.com/users/13540113/ritchi)](https://stackoverflow.com/users/13540113/ritchi)
+[![](https://img.shields.io/badge/-facebook-white?style=flat&logo=facebook&logoColor=white&color=5daef5&link=https://web.facebook.com/TchiRubick/)](https://web.facebook.com/TchiRubick/)
