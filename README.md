@@ -11,6 +11,7 @@ I'm a self-taught and actually an independent remote developer.
 ![](https://img.shields.io/badge/-react-white?style=flat&logo=react&logoColor=white&color=28a89c)
 ![](https://img.shields.io/badge/-vue-white?style=flat&logo=vue.js&logoColor=white&color=28a89c)
 ![](https://img.shields.io/badge/-node-white?style=flat&logo=node.js&logoColor=white&color=0be016)
+![](https://img.shields.io/badge/-jquery-white?style=flat&logo=jquery&logoColor=white&color=d4f55d)
 ![](https://img.shields.io/badge/-mysql-white?style=flat&logo=mysql&logoColor=white&color=1d9bf5)
 ![](https://img.shields.io/badge/-docker-white?style=flat&logo=docker&logoColor=white&color=287cb8)
 ![](https://img.shields.io/badge/-aws-white?style=flat&logo=amazon-aws&logoColor=white&color=e0a00b)
