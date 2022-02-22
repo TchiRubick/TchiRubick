@@ -1,7 +1,9 @@
 
 # 👋 Hi, I’m Ritchi <@TchiRubick> Andriantsifeherana
 
-I'm a self-taught and actually an independent remote developer.
+I'm a ReactJS / NodeJS / PHP independant remote developer.
+
+Feel free to contact me.
 
 ## Langages and technologies i use
 ![](https://img.shields.io/badge/-php-informational?style=flat&logo=php&logoColor=white&color=787CB5)
