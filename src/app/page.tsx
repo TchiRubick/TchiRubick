@@ -2,15 +2,7 @@ import * as HomeCard from '@/components/home-card';
 import { ProjectCard } from '@/components/project-card';
 import { Badge } from "@/components/ui/badge";
 import { api } from '@/trpc/server';
-import { type Metadata } from 'next';
 import Link from 'next/link';
-
-export const metadata: Metadata = {
-  title: 'Ritchi Andriantsifeherana',
-  description: 'Experienced Full-Stack Typescript Developer',
-  keywords: await api.technology.list.query(),
-  creator: 'tchi.devica@gmail.com'
-};
 
 const IndexPage = async () => {
   const technologies = await api.technology.list.query();

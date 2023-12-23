@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 
+import { LIST as techList } from "@/server/api/routers/technology";
 import { TRPCReactProvider } from "@/trpc/react";
 import { Inter } from "next/font/google";
 import { cookies } from "next/headers";
@@ -11,8 +12,10 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Ritchi Andriantsifeherana",
-  description: "Experienced Full-Stack Typescript Developer",
+  title: 'Ritchi Andriantsifeherana',
+  description: 'Experienced Full-Stack Typescript Developer',
+  keywords: techList,
+  creator: 'tchi.devica@gmail.com',
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

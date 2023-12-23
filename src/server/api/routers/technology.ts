@@ -1,6 +1,6 @@
 import { createTRPCRouter, publicProcedure } from "@/server/api/trpc";
 
-const LIST = [
+export const LIST = [
   "React JS",
   "Next JS",
   "Typescript",
