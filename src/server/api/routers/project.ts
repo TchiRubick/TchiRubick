@@ -4,7 +4,7 @@ import type { Project } from "@/types";
 const LIST: Project[] = [
   {
     title: "Revly",
-    preview: "/revly.PNG",
+    preview: "/revly.png",
     description:
       "Managing your marketing on multiple delivery platforms is a big hassle! We give you and your team the right tool to fuel your visibility and craft the best growth strategy for your brands on delivery platforms.",
     github: null,
@@ -14,7 +14,7 @@ const LIST: Project[] = [
   },
   {
     title: "Refuge des hauts",
-    preview: "/rdh.PNG",
+    preview: "/rdh.png",
     description:
       "Website synced with Booking.com availability without relying to Booking.com for each check-in. Fees free.",
     github: "https://github.com/TchiRubick/refuges",
@@ -30,7 +30,7 @@ const LIST: Project[] = [
   },
   {
     title: "Ooay",
-    preview: "/ooay.PNG",
+    preview: "/ooay.png",
     description: "Business showcase website",
     github: "https://github.com/TchiRubick/OOAY",
     url: "https://ooay.vercel.app",
@@ -39,7 +39,7 @@ const LIST: Project[] = [
   },
   {
     title: "Hagnere-app",
-    preview: "/hagnere.PNG",
+    preview: "/hagnere.png",
     description:
       "Hagnéré Patrimoine offers tailor-made investment projects in unfurnished or furnished rental real estate (customized strategy to be defined with our experts) with guaranteed high returns!",
     github: null,
@@ -49,7 +49,7 @@ const LIST: Project[] = [
   },
   {
     title: "SIRHPLUS",
-    preview: "/sirh.PNG",
+    preview: "/sirh.png",
     description:
       "Gain efficiency and facilitate communication and collaboration within your company with our innovative HR solution.",
     github: null,
@@ -59,7 +59,7 @@ const LIST: Project[] = [
   },
   {
     title: "Evasion Academy Boutique",
-    preview: "/eeb.PNG",
+    preview: "/eeb.png",
     description: "E-commerce platform for Evasion Evolution",
     github: null,
     url: "https://evasionacademyboutique.com",
@@ -68,7 +68,7 @@ const LIST: Project[] = [
   },
   {
     title: "Evasion Evolution",
-    preview: "/ee.PNG",
+    preview: "/ee.png",
     description:
       "The Evasion Evolution application is a personalized sports coaching app. To better assist the trainee, an exercise can be illustrated by multimedia content (video, photos, PDF) provided by the coach. And to create a personalized session for a trainee, the coach will have to insert exercises into the session.",
     github: null,
@@ -87,7 +87,7 @@ const LIST: Project[] = [
   },
   {
     title: "Hightao Recrutement",
-    preview: "/ht.PNG",
+    preview: "/ht.png",
     description:
       "Recruitment platform, candidate management, technical test platform the candidat and at last a backoffice for managing all the test per technologies",
     github: null,
@@ -97,7 +97,7 @@ const LIST: Project[] = [
   },
   {
     title: "openrares",
-    preview: "/openrares.PNG",
+    preview: "/openrares.png",
     description:
       "NFT Marketplace. Contract built on top the Ethereum blockchain",
     github: null,
@@ -107,7 +107,7 @@ const LIST: Project[] = [
   },
   {
     title: "Les plaisirs de l'eau",
-    preview: "/lpe.PNG",
+    preview: "/lpe.png",
     description:
       "Aquatic spaces located in Bordeaux and Eysines where aquatic activities are offered for the whole family.",
     github: null,
