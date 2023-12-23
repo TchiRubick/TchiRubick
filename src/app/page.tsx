@@ -6,8 +6,10 @@ import { type Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'NeXchange',
-  description: 'On-Demand Staffing on Next.js and React developers',
+  title: 'Ritchi Andriantsifeherana',
+  description: 'Experienced Full-Stack Typescript Developer',
+  keywords: await api.technology.list.query(),
+  creator: 'tchi.devica@gmail.com'
 };
 
 const IndexPage = async () => {
@@ -19,7 +21,7 @@ const IndexPage = async () => {
       <section className='space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32'>
         <div className='container flex max-w-[70rem] flex-col items-center gap-4 text-center'>
           <Link
-            href='https://twitter.com/SofosLykos'
+            href='https://twitter.com/MoonlightLykos'
             className='mb-5 rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium'
             target='_blank'
           >

@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "NeXchange",
-  description: "On-Demand Staffing on Next.js and React developers",
+  title: "Ritchi Andriantsifeherana",
+  description: "Experienced Full-Stack Typescript Developer",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
