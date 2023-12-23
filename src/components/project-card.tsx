@@ -95,13 +95,13 @@ export const ProjectCard: FC<Props> = ({ project }) => {
           <Image
             alt="Project preview"
             className="w-full h-64 object-cover"
-            height="400"
+            height="250"
             src={preview}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
             }}
-            width="400"
+            width="250"
           />
         </div>
         <CardContent className="w-full md:w-1/2 p-4 space-y-4">
