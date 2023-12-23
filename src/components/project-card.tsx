@@ -34,17 +34,17 @@ const IconTooltip: FC<{ icon: JSX.Element, value: string }> = ({ icon, value }) 
 )
 
 const ICON_MAPPING: Record<ProjectState, JSX.Element> = {
-  collaborator: <IconTooltip icon={<Users size={14} />} value='Collaborator (Team members > 1)' />,
-  contractor: <IconTooltip icon={<UserCheck size={14} />} value='Contractor' />,
-  lead: <IconTooltip icon={<Speech size={14} />} value='Team lead' />,
-  ongoing: <IconTooltip icon={<Clock4 size={14} />} value='On going' />,
-  maintenance: <IconTooltip icon={<Wrench size={14} />} value='Project still maintained' />,
-  lowcost: <IconTooltip icon={<TrendingDown size={14} />} value='Low cost | Free' />,
-  mercenary: <IconTooltip icon={<Syringe size={14} />} value='Mercenary | Very short time intervention' />,
-  droped: <IconTooltip icon={<Skull size={14} />} value='Unfinished | Contract terminated unexpectedly' />,
-  partenariat: <IconTooltip icon={<Flag size={14} />} value='Partnership | Long term partner/client in the market' />,
-  personal: <IconTooltip icon={<PersonStanding size={14} />} value='Personal' />,
-  best: <IconTooltip icon={<Star size={14} />} value='Best' />,
+  collaborator: <IconTooltip key='collaborator' icon={<Users size={14} />} value='Collaborator (Team members > 1)' />,
+  contractor: <IconTooltip key='contractor' icon={<UserCheck size={14} />} value='Contractor' />,
+  lead: <IconTooltip key='lead' icon={<Speech size={14} />} value='Team lead' />,
+  ongoing: <IconTooltip key='ongoing' icon={<Clock4 size={14} />} value='On going' />,
+  maintenance: <IconTooltip key='maintenance' icon={<Wrench size={14} />} value='Project still maintained' />,
+  lowcost: <IconTooltip key='lowcost' icon={<TrendingDown size={14} />} value='Low cost | Free' />,
+  mercenary: <IconTooltip key='mercenary' icon={<Syringe size={14} />} value='Mercenary | Very short time intervention' />,
+  droped: <IconTooltip key='droped' icon={<Skull size={14} />} value='Unfinished | Contract terminated unexpectedly' />,
+  partenariat: <IconTooltip key='partenariat' icon={<Flag size={14} />} value='Partnership | Long term partner/client in the market' />,
+  personal: <IconTooltip key='personal' icon={<PersonStanding size={14} />} value='Personal' />,
+  best: <IconTooltip key='best' icon={<Star size={14} />} value='Best' />,
 };
 
 const GithubLink: FC<{ link: string | null }> = ({ link }) => {
