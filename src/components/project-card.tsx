@@ -33,6 +33,17 @@ const IconTooltip: FC<{ icon: JSX.Element, value: string }> = ({ icon, value }) 
   </TooltipProvider>
 )
 
+const DescriptionTooltip: FC<{ value: string }> = ({ value }) => (
+  <TooltipProvider>
+    <Tooltip>
+      <TooltipTrigger className="truncate max-w-72 md:max-w-96">{value}</TooltipTrigger>
+      <TooltipContent className="bg-slate-700 z-auto" side="bottom">
+        <p className="max-w-72 text-wrap text-slate-300 z-50">{value}</p>
+      </TooltipContent>
+    </Tooltip>
+  </TooltipProvider>
+)
+
 const ICON_MAPPING: Record<ProjectState, JSX.Element> = {
   collaborator: <IconTooltip key='collaborator' icon={<Users size={14} />} value='Collaborator (Team members > 1)' />,
   contractor: <IconTooltip key='contractor' icon={<UserCheck size={14} />} value='Contractor' />,
@@ -95,24 +106,27 @@ export const ProjectCard: FC<Props> = ({ project }) => {
           <Image
             alt="Project preview"
             className="w-full h-64 object-cover"
-            height="250"
+            height="300"
             src={preview}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
             }}
-            width="250"
+            width="300"
           />
         </div>
         <CardContent className="w-full md:w-1/2 p-4 space-y-4">
           <div className="flex justify-between flex-col h-56">
             <div>
-              <CardTitle className="text-xl font-bold flex gap-2 items-center">{title} {getIcons(states)}</CardTitle>
-              <CardDescription className="text-gray-500">
-                {description}
+              <CardTitle className="text-xl font-bold flex gap-2 items-center">{title}</CardTitle>
+              <CardDescription className="text-gray-500 max-h-14">
+                <DescriptionTooltip value={description} />
               </CardDescription>
             </div>
             <div>
+              <div className="flex gap-2 flex-wrap mb-5">
+                {getIcons(states)}
+              </div>
               <div className="flex gap-2 flex-wrap mb-5">
                 {technologies.map((tech) => <Badge key={tech} variant='secondary'>{tech}</Badge>)}
               </div>
