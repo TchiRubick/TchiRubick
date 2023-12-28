@@ -26,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="google-site-verification" content="5Af2v2K1oAtXGu7i0vE9eLLwa1VQIhIn8nMBkJ855ZY" />
+      </head>
       <body className={`font-sans ${inter.variable}`}>
         <TRPCReactProvider cookies={cookies().toString()}>
           <MainContent>
