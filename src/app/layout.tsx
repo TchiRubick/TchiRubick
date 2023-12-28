@@ -5,7 +5,7 @@ import { TRPCReactProvider } from "@/trpc/react";
 import { Inter } from "next/font/google";
 import { cookies } from "next/headers";
 import { MainContent } from "./_components/main-content";
-
+import { Particle } from "./_components/particle";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -30,6 +30,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="5Af2v2K1oAtXGu7i0vE9eLLwa1VQIhIn8nMBkJ855ZY" />
       </head>
       <body className={`font-sans ${inter.variable}`}>
+        <Particle />
         <TRPCReactProvider cookies={cookies().toString()}>
           <MainContent>
             {children}
