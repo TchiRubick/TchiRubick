@@ -6,7 +6,7 @@ const robots = (): MetadataRoute.Robots => ({
     allow: "/",
     disallow: "/private/",
   },
-  sitemap: "https://acme.com/sitemap.xml",
+  sitemap: "https://tchi.xyz/sitemap.xml",
 });
 
 export default robots;

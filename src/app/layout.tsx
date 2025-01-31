@@ -12,11 +12,32 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'Ritchi Andriantsifeherana',
-  description: 'Experienced Full-Stack Typescript Developer',
+  title: "Ritchi Andriantsifeherana",
+  description: "Experienced Full-Stack Typescript Developer",
   keywords: techList,
-  creator: 'tchi.devica@gmail.com',
+  creator: "tchi.devica@gmail.com",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
+  openGraph: {
+    title: "Ritchi Andriantsifeherana",
+    description: "Experienced Full-Stack Typescript Developer",
+    url: "https://tchi.xyz",
+    site_name: "Ritchi portfolio",
+    images: [
+      {
+        url: "https://tchi.xyz/favicon.ico",
+        width: 800,
+        height: 600,
+        alt: "Experienced Full-Stack Typescript Developer",
+      },
+    ],
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -26,15 +47,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta name="google-site-verification" content="5Af2v2K1oAtXGu7i0vE9eLLwa1VQIhIn8nMBkJ855ZY" />
-      </head>
       <body className={`font-sans ${inter.variable}`}>
         <Particle />
         <TRPCReactProvider cookies={cookies().toString()}>
-          <MainContent>
-            {children}
-          </MainContent>
+          <MainContent>{children}</MainContent>
         </TRPCReactProvider>
       </body>
     </html>

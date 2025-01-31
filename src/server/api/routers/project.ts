@@ -9,7 +9,7 @@ const LIST: Project[] = [
       "Managing your marketing on multiple delivery platforms is a big hassle! We give you and your team the right tool to fuel your visibility and craft the best growth strategy for your brands on delivery platforms.",
     github: null,
     url: "https://www.revly.ae",
-    technologies: ["ReactJS", "Material UI", "Ant Design"],
+    technologies: ["ReactJS", "Ant Design", "Turborepo", "NextJS"],
     states: ["collaborator", "ongoing", "partenariat", "best"],
   },
   {
