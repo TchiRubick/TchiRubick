@@ -93,7 +93,7 @@ export default function HomePage() {
                 >
                   <div className="flex flex-col gap-2 text-left">
                     <h1 className="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
-                      Hi, I'm Ritchi
+                      Hi, I&apos;m Ritchi
                     </h1>
                     <h2 className="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
                       Senior Full-Stack Developer with 7 years of experience in
