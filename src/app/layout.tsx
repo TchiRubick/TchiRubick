@@ -53,8 +53,8 @@ const jsonLd = {
   jobTitle: "Fullstack Developer",
   url: "https://www.tchi.xyz",
   sameAs: [
-    "https://www.linkedin.com/in/ritchiandria",
-    "https://github.com/ritchiandria",
+    "https://www.linkedin.com/in/tchirubick/",
+    "https://github.com/TchiRubick",
   ],
 };
 
