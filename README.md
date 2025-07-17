@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ritchi</h1>
-<h3 align="center">Senior Full-Stack Developer with 7 years of experience in building scalable, high-performance web and mobile applications. Expert in TypeScript, JavaScript, React, Next.js, Node.js, and React Native, with a strong focus on user-centric design and modern development practices. Proficient in RESTful API development, PostgreSQL database management, and implementing CI/CD pipelines using Docker and GitHub Actions. Passionate about delivering innovative solutions for startups, enterprises, and individuals.A passionate frontend developer from India</h3>
+<h3 align="center">Senior Full-Stack Developer with 7 years of experience in building scalable, high-performance web and mobile applications. Expert in TypeScript, JavaScript, React, Next.js, Node.js, and React Native, with a strong focus on user-centric design and modern development practices. Proficient in RESTful API development, PostgreSQL database management, and implementing CI/CD pipelines using Docker and GitHub Actions. Passionate about delivering innovative solutions for startups, enterprises, and individuals.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tchirubick&label=Profile%20views&color=0e75b6&style=flat" alt="tchirubick" /> </p>
 
