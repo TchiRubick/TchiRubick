@@ -52,15 +52,13 @@ const AssistantMessage = ({ text }: { text: string }) => (
       <div className="bg-white rounded-t-2xl rounded-r-2xl px-5 py-3 max-w-lg shadow-md text-gray-800">
         <Markdown
           components={{
-            a: ({ node, ...props }) => (
+            a: ({ ...props }) => (
               <a
                 className="text-[#39e079] font-medium hover:underline"
                 {...props}
               />
             ),
-            p: ({ node, ...props }) => (
-              <p className="mb-2 last:mb-0" {...props} />
-            ),
+            p: ({ ...props }) => <p className="mb-2 last:mb-0" {...props} />,
           }}
         >
           {text}
@@ -255,7 +253,7 @@ export const Chat = () => {
                 </svg>
               </div>
               <h2 className="text-2xl font-semibold mb-2">
-                Ritchi's Assistant
+                Ritchi&apos;s Assistant
               </h2>
               <p className="text-gray-500 max-w-md mx-auto">
                 Ask me anything! I can help you skip the basic HR question.
@@ -278,8 +276,8 @@ export const Chat = () => {
       <p className="text-gray-400  p-2 text-xs mx-auto">
         ⚠️ This assistant is powered by OpenAI, with file search and a vector
         database for smarter answers. Please use it considerately — every
-        message costs tokens, and I'm covering those costs myself. Thanks for
-        understanding! 🙏
+        message costs tokens, and I&apos;m covering those costs myself. Thanks
+        for understanding! 🙏
       </p>
       <div className="bg-white/70 backdrop-blur-lg border-t border-slate-200 p-4">
         <div className="max-w-4xl mx-auto">

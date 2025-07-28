@@ -7,8 +7,8 @@ export const ProjectsSection = () => (
       Projects
     </h2>
     <p className="text-sm text-gray-600 px-4 pb-3">
-      Only the 3 latest non-whitelisted projects that I've finished are shown
-      here.
+      Only the 3 latest non-whitelisted projects that I&apos;ve finished are
+      shown here.
     </p>
     <div className="flex flex-wrap justify-center gap-4">
       {PROJECTS.map((project, index) => (
