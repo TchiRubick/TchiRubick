@@ -19,4 +19,9 @@ export const CONTACTINFO = [
     value: "github.com/TchiRubick",
     href: "https://github.com/TchiRubick",
   },
+  {
+    label: "Personal Project",
+    value: "Hashit",
+    href: "https://hashit.tchi.xyz/",
+  },
 ];

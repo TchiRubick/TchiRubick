@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Chat } from "./_components/chat";
 
 export const metadata: Metadata = {
   alternates: {
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function ChatPage() {
-  return <div>Chat</div>;
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
 }

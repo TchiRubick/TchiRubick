@@ -81,7 +81,7 @@ export default function RootLayout({
         >
           <div className="layout-container flex h-full grow flex-col">
             <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e8f2ec] px-10 py-3">
-              <div className="flex items-center gap-4 text-[#0e1a13]">
+              <Link href="/" className="flex items-center gap-4 text-[#0e1a13]">
                 <div className="w-10 h-10">
                   <Image
                     src="/me.jpeg"
@@ -94,7 +94,7 @@ export default function RootLayout({
                 <h2 className="text-[#0e1a13] text-lg font-bold leading-tight tracking-[-0.015em]">
                   Ritchi
                 </h2>
-              </div>
+              </Link>
               <div className="flex flex-1 justify-end gap-8">
                 <nav className="flex items-center gap-9">
                   <Link
@@ -122,9 +122,13 @@ export default function RootLayout({
                     Chat
                   </Link>
                 </nav>
-                <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-[#e8f2ec] text-[#0e1a13] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#d1e6d9] transition-colors">
+                <Link
+                  href="/resume.pdf"
+                  download
+                  className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-[#e8f2ec] text-[#0e1a13] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#d1e6d9] transition-colors"
+                >
                   <span className="truncate">Resume</span>
-                </button>
+                </Link>
               </div>
             </header>
             {children}
