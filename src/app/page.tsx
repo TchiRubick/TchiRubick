@@ -1,13 +1,31 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { CONTACTINFO } from "@/ressources/contact";
 import { getLatestEntries } from "@/ressources/project-articles";
 import { PARTNERS } from "@/ressources/patners";
 
+const SITE_URL = "https://www.tchi.xyz";
+const DEFAULT_HOME_TITLE = "Ritchi Andria - Full-Stack Developer";
+const DEFAULT_HOME_DESCRIPTION =
+  "I build scalable web applications, developer tools, and intelligent systems.";
+
 export const metadata: Metadata = {
+  title: DEFAULT_HOME_TITLE,
+  description: DEFAULT_HOME_DESCRIPTION,
   alternates: {
-    canonical: "https://www.tchi.xyz",
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    title: DEFAULT_HOME_TITLE,
+    description: DEFAULT_HOME_DESCRIPTION,
+    type: "website",
+    url: SITE_URL,
+  },
+  twitter: {
+    title: DEFAULT_HOME_TITLE,
+    description: DEFAULT_HOME_DESCRIPTION,
+    card: "summary_large_image",
   },
 };
 

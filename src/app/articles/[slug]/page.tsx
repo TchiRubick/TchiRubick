@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,6 +9,7 @@ import {
 } from "@/ressources/project-articles";
 
 export const revalidate = 60;
+const SITE_URL = "https://www.tchi.xyz";
 
 type PersonalArticlePageProps = {
   params: Promise<{
@@ -22,19 +24,42 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: PersonalArticlePageProps) {
+export async function generateMetadata({
+  params,
+}: PersonalArticlePageProps): Promise<Metadata> {
   const { slug } = await params;
   const article = await getPersonalArticleBySlug(slug);
+  const pageUrl = `${SITE_URL}/articles/${slug}`;
 
   if (!article) {
     return {
       title: "Article not found",
+      alternates: {
+        canonical: pageUrl,
+      },
     };
   }
 
   return {
-    title: `${article.title} | Ritchi Andria`,
+    title: article.title,
     description: article.summary,
+    keywords: article.techs,
+    alternates: {
+      canonical: pageUrl,
+    },
+    openGraph: {
+      title: article.title,
+      description: article.summary,
+      type: "article",
+      url: pageUrl,
+      images: article.image,
+    },
+    twitter: {
+      title: article.title,
+      description: article.summary,
+      card: "summary_large_image",
+      images: article.image,
+    },
   };
 }
 
